@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 
 import SearchBar from '../Search bar/SearchBar';
 import MainSlider from '../slider/main-slider/MainSlider';
-import Header from './Header';
+ 
 import Footer from './Footer';
 
 
 function Home() {
     return (
         <div>
-            <Header />
+      
             <SearchBar />
 
             <MainSlider />

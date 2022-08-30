@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Book from './Book';
 import URL from '../path'
 import '../css/Book.css'
-import Header from "../pages/Header";
+ 
 import Footer from "../pages/Footer";
 
 
@@ -25,7 +25,7 @@ function Books() {
 
     return (
         <div>
-            <Header />
+        
             <SearchBar />
             <div className="book_cont">
                 <ul>

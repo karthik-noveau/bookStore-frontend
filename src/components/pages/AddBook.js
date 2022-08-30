@@ -7,7 +7,7 @@ import axios from 'axios';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/AddBook.css';
-import Header from './Header';
+ 
 import Footer from './Footer';
 
 function AddBook() {
@@ -49,7 +49,7 @@ function AddBook() {
 
     return (
         <div>
-            <Header />
+ 
             <div className="add_main_cont">
                 <div className="addb_cont">
                     <Form onSubmit={handleSubmit}>

@@ -5,7 +5,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/AddBook.css'
-import Header from './Header';
+ 
 import Footer from './Footer';
 
 function UpdateBook() {
@@ -52,7 +52,7 @@ function UpdateBook() {
 
     return (
         <div>
-            <Header />
+           
             <div className="add_main_cont">
                 {inputs && (
                     <div className="addb_cont">
