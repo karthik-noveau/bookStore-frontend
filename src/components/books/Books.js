@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import Book from './Book';
 import URL from '../path'
 import '../css/Book.css'
+import Header from "../pages/Header";
+import Footer from "../pages/Footer";
 
 
 function Books() {
@@ -11,8 +13,8 @@ function Books() {
     const fetchData = async () => {
         return await axios.get(URL).then((res) => res.data)
     };
-    const fetchDemo =async ()=>{
-        return await axios.get(URL).then((item1)=>console.log(item1))
+    const fetchDemo = async () => {
+        return await axios.get(URL).then((item1) => console.log(item1))
     }
     fetchDemo();
 
@@ -23,6 +25,7 @@ function Books() {
 
     return (
         <div>
+            <Header />
             <SearchBar />
             <div className="book_cont">
                 <ul>
@@ -34,6 +37,7 @@ function Books() {
                         ))}
                 </ul>
             </div>
+            <Footer />
         </div>
     )
 }

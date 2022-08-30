@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import Book from './ABook';
 import URL from '../path'
 import '../css/Book.css'
+import Header from "../pages/Header";
+import Footer from "../pages/Footer";
 
 
 function ABooks() {
@@ -23,6 +25,7 @@ function ABooks() {
 
     return (
         <div>
+            <Header />
             <SearchBar />
             <div className="book_cont">
                 <ul>
@@ -34,6 +37,7 @@ function ABooks() {
                         ))}
                 </ul>
             </div>
+            <Footer />
         </div>
     )
 }
