@@ -2,19 +2,22 @@ import Slide from '../slider/slide1/Slide';
 
 import '../css/Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import SearchBar from '../Search bar/SearchBar';
 import MainSlider from '../slider/main-slider/MainSlider';
+import Header from './Header';
+import Footer from './Footer';
 
 
 function Home() {
     return (
         <div>
-            <SearchBar/>
+            <Header />
+            <SearchBar />
 
-            <MainSlider/>
-           
+            <MainSlider />
+
             <div className='view_all_cont'>
                 <Link to="./Books"><button>View all books</button></Link>
             </div>
@@ -35,7 +38,7 @@ function Home() {
                 <Slide />
             </div>
 
-
+            <Footer />
         </div>
     )
 }

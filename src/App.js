@@ -13,7 +13,6 @@ import UpdateBook from './components/pages/UpdateBook';
 function App() {
   return (
     <div>
-      <Header/>
 
       <Routes>
         <Route path="/" element={<Home/>} />
@@ -23,7 +22,7 @@ function App() {
         <Route path="/books/:id" element={<UpdateBook/>} />
       </Routes>
 
-      <Footer/>
+
     </div>
   );
 }

@@ -7,6 +7,8 @@ import axios from 'axios';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/AddBook.css';
+import Header from './Header';
+import Footer from './Footer';
 
 function AddBook() {
 
@@ -46,46 +48,51 @@ function AddBook() {
     };
 
     return (
-        <div className="add_main_cont">
-            <div className="addb_cont">
-                <Form onSubmit={handleSubmit}>
-                    <Form.Group className="mb-3" controlId="formGroupEmail">
-                        <Form.Label>Name</Form.Label>
-                        <Form.Control type="text" placeholder="Book name" name="name"
-                            onChange={handleChange}
-                        />
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="formGroupPassword">
-                        <Form.Label>Author</Form.Label>
-                        <Form.Control type="text" placeholder="Author" name="author"
-                            onChange={handleChange}
-                        />
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="formGroupPassword">
-                        <Form.Label>Price</Form.Label>
-                        <Form.Control type="number" placeholder="Offer Price" name="off_price"
-                            onChange={handleChange}
-                        />
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="formGroupPassword">
-                        <Form.Label>Price</Form.Label>
-                        <Form.Control type="number" placeholder="Original Price" name="ori_price"
-                            onChange={handleChange}
-                        />
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="formGroupPassword">
-                        <Form.Label>Image</Form.Label>
-                        <Form.Control type="url" placeholder="image url" name="image"
-                            onChange={handleChange}
-                        />
-                    </Form.Group>
-                    <Button variant="primary" type="submit" >
-                        Submit
-                    </Button>
+        <div>
+            <Header />
+            <div className="add_main_cont">
+                <div className="addb_cont">
+                    <Form onSubmit={handleSubmit}>
+                        <Form.Group className="mb-3" controlId="formGroupEmail">
+                            <Form.Label>Name</Form.Label>
+                            <Form.Control type="text" placeholder="Book name" name="name"
+                                onChange={handleChange}
+                            />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formGroupPassword">
+                            <Form.Label>Author</Form.Label>
+                            <Form.Control type="text" placeholder="Author" name="author"
+                                onChange={handleChange}
+                            />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formGroupPassword">
+                            <Form.Label>Price</Form.Label>
+                            <Form.Control type="number" placeholder="Offer Price" name="off_price"
+                                onChange={handleChange}
+                            />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formGroupPassword">
+                            <Form.Label>Price</Form.Label>
+                            <Form.Control type="number" placeholder="Original Price" name="ori_price"
+                                onChange={handleChange}
+                            />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formGroupPassword">
+                            <Form.Label>Image</Form.Label>
+                            <Form.Control type="url" placeholder="image url" name="image"
+                                onChange={handleChange}
+                            />
+                        </Form.Group>
+                        <Button variant="primary" type="submit" >
+                            Submit
+                        </Button>
 
-                </Form>
+                    </Form>
+                </div>
             </div>
+            <Footer />
         </div>
+
     )
 }
 
