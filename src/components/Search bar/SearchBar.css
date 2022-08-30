@@ -1,0 +1,31 @@
+#search_bar {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    width: 100%;
+}
+
+#search_bar .d-flex {
+    width: 30%;
+}
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 60%);
+}
+
+@media (max-width:700px) {
+    .btn {
+        --bs-btn-line-height: 0.5px;
+    }
+
+    #search_bar {
+        margin-top: -25px;
+        margin-bottom: 0px;
+    }
+
+    #search_bar .d-flex {
+        width: 70%;
+        height: 34px;
+    }
+}

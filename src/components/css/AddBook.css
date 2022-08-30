@@ -1,0 +1,25 @@
+.addb_cont{
+    width:39%;
+}
+.add_main_cont{
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+}
+
+@media (max-width:800px){
+    .addb_cont{
+        width:80%;
+    }
+ 
+    .btn {
+       --bs-btn-line-height: 15.5px;
+    }
+    
+}
+
+@media (min-width: 1400px){
+.mb-3 {
+    padding:0px;
+}
+}
