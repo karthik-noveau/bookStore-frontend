@@ -3,14 +3,20 @@ import Slide from '../slider/slide1/Slide';
 import '../css/Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+import {useEffect} from 'react'
 
 import SearchBar from '../Search bar/SearchBar';
 import MainSlider from '../slider/main-slider/MainSlider';
  
-import Footer from './Footer';
+
+
+
 
 
 function Home() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
       
@@ -38,7 +44,8 @@ function Home() {
                 <Slide />
             </div>
 
-            <Footer />
+          
+          
         </div>
     )
 }

@@ -14,7 +14,7 @@
 }
 
 #offcanvasNavbar-expand-xxl {
-    background-color: #212529;
+    background-color: #000000;
     color: white;
     width: 70%;
 }
@@ -139,7 +139,9 @@ ul {
         font-size: 20px;
         font-weight: 400;
         text-align: start;
-        width: 124px;
+        width: 138px;
+        padding: 0px !important;
+        padding-left: 27px !important;
     }
     .offcanvas-body {
         margin-left: 10px;

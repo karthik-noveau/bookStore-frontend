@@ -5,7 +5,7 @@ import Book from './ABook';
 import URL from '../path'
 import '../css/Book.css'
  
-import Footer from "../pages/Footer";
+
 
 
 function ABooks() {
@@ -13,6 +13,7 @@ function ABooks() {
     const fetchData = async () => {
         return await axios.get(URL).then((res) => res.data)
     };
+ 
     // const fetchDemo =async ()=>{
     //     return await axios.get(URL).then((item1)=>console.log(item1))
     // }
@@ -20,7 +21,9 @@ function ABooks() {
 
     const [books, setBooks] = useState();
     useEffect(() => {
+        window.scrollTo(0, 0);
         fetchData().then((data) => setBooks(data.books));
+       
     }, []);
 
     return (
@@ -37,7 +40,7 @@ function ABooks() {
                         ))}
                 </ul>
             </div>
-            <Footer />
+        
         </div>
     )
 }

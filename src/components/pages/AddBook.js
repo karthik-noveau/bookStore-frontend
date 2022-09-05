@@ -8,7 +8,7 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/AddBook.css';
  
-import Footer from './Footer';
+
 
 function AddBook() {
 
@@ -90,7 +90,7 @@ function AddBook() {
                     </Form>
                 </div>
             </div>
-            <Footer />
+           
         </div>
 
     )

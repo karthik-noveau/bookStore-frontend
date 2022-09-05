@@ -5,7 +5,7 @@ import Book from './Book';
 import URL from '../path'
 import '../css/Book.css'
  
-import Footer from "../pages/Footer";
+
 
 
 function Books() {
@@ -20,6 +20,7 @@ function Books() {
 
     const [books, setBooks] = useState();
     useEffect(() => {
+        window.scrollTo(0, 0)
         fetchData().then((data) => setBooks(data.books));
     }, []);
 
@@ -37,7 +38,7 @@ function Books() {
                         ))}
                 </ul>
             </div>
-            <Footer />
+         
         </div>
     )
 }

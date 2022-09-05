@@ -6,7 +6,7 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/AddBook.css'
  
-import Footer from './Footer';
+
 
 function UpdateBook() {
 
@@ -16,6 +16,7 @@ function UpdateBook() {
 
     const history = useNavigate();
     useEffect(() => {
+        window.scrollTo(0, 0);
         const fetchHandler = async () => {
             await axios
                 .get(`https://skybook-store.herokuapp.com/books/${id}`)
@@ -102,7 +103,7 @@ function UpdateBook() {
                 )}
 
             </div>
-            <Footer />
+          
         </div>
 
     );

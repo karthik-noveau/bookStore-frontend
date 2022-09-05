@@ -3,6 +3,7 @@ import { FaFacebookF } from 'react-icons/fa'
 import { BsInstagram } from 'react-icons/bs'
 import { RiLinkedinFill } from 'react-icons/ri'
 import { FiMail } from 'react-icons/fi'
+import {Link} from 'react-router-dom'
  
 
 function Footer() {
@@ -25,7 +26,7 @@ function Footer() {
                         <div className="f_item_1" >
                             <ul>
                                 <li>Company</li>
-                                <li><a href="https://skybookstore1.netlify.app/About">About</a></li>
+                                <li><Link to="/ABooks">About</Link></li>
                                 <li><a href="https://skybookstore1.netlify.app/About">Contact</a></li>
                             </ul>
                         </div>
