@@ -8,7 +8,7 @@ function MainSlider() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/Main%20Slider%2Fslide_2.jpg?alt=media&token=5e5e4a4e-6688-4fd9-bf6c-be8893286f82"
+                            src="https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/Main%20Slider%2Fslide_5.png?alt=media&token=c89edca4-63c8-4542-97ba-a845c1d51625"
                             alt="First slide"
                         />
 
@@ -17,7 +17,7 @@ function MainSlider() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/Main%20Slider%2Fslide_3.jpg?alt=media&token=1b45b4a0-30f7-4843-8fff-c424be3e4f0e"
+                            src="https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/Main%20Slider%2Fslide_6.png?alt=media&token=0a6c9e01-beee-402f-8fe7-39347116931e"
                             alt="Second slide"
                         />
 
@@ -25,7 +25,7 @@ function MainSlider() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/Main%20Slider%2Fslide_1.jpg?alt=media&token=d53a91bf-af8d-4b37-91f4-3d3122265cea"
+                            src="https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/Main%20Slider%2Fslide_8.png?alt=media&token=36fae19c-b898-4d8b-b674-9c31c3eb432b"
                             alt="Third slide"
                         />
                     </Carousel.Item>

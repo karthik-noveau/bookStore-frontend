@@ -43,17 +43,7 @@ function Slide() {
   };
   return (
     <div className="slide_cont">
-      <Slider {...settings} className="slide_main_cont">
-         {
-          BooksData.map((item,index)=>(
-            <div className="card">
-              <div className="card-top" key={index}>
-                 <img src={item.image} />
-              </div>
-            </div>
-          ))
-         }
-      </Slider>
+     <h1>hai</h1>
     </div>
   );
 }
