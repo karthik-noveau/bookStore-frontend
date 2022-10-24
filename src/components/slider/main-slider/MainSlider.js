@@ -3,13 +3,17 @@ import Carousel from 'react-bootstrap/Carousel';
 function MainSlider() {
     return (
         <div>
-            <div className='carousel_cont'>
+            <div className='.w-100 {
+    width: 100%!important;
+    height: 190px;
+}'>
                 <Carousel>
-                    <Carousel.Item>
+                    <Carousel.Item >
                         <img
                             className="d-block w-100"
                             src="https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/Main%20Slider%2Fslide_5.png?alt=media&token=c89edca4-63c8-4542-97ba-a845c1d51625"
                             alt="First slide"
+
                         />
 
 

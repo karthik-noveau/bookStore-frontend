@@ -1,7 +1,10 @@
 .slide_main_cont{
     display: flex;
     justify-content: center;
+    justify-content: center;
+    margin-left: 10px;
 }
+ 
 .slide_cont{
     width: 92% ;
 }
