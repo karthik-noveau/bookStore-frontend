@@ -6,13 +6,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-function Slide() {
+function Slide3() {
 
   var settings = {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 10, 
+    slidesToShow:13, 
     slidesToScroll: 2,
     initialSlide: 0,
     responsive: [
@@ -94,4 +94,4 @@ function Slide() {
   );
 }
 
-export default Slide;
+export default Slide3;

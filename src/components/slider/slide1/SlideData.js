@@ -1,66 +1,26 @@
 export const BooksData=[
     {
         text:"one",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2Fslide_img1.jpg?alt=media&token=fa453790-b756-4105-8176-f01f92ef545f'
+    },
+    {
+        text:"two",
         image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780062691194.jpg?alt=media&token=20b269d4-2345-4cf3-b759-1de3a589cc80'
     },
     {
-        text:"two",
-        image:' https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780441569595.jpg?alt=media&token=03fc6995-8925-476e-8105-8a317ddde07d'
-    },
-    {
         text:"three",
-        image:' https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780689818769.jpg?alt=media&token=9e93839d-a240-40b8-a227-063747fa497c'
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2Fslide_img3.jpg?alt=media&token=abf36fd6-b0f1-4063-81e8-6d9e64d49bac'
     },
     {
-        text:"one",
-        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9781250217318.jpg?alt=media&token=be670b54-ba4c-48b2-8b55-2ffa414d0c75'
+        text:"four",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2Fslide_img4.jpg?alt=media&token=605a81b0-8801-4348-9501-e42256cee197'
     },
     {
-        text:"two",
-        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9781338157826.jpg?alt=media&token=2ac81856-f2bc-4bd7-a312-9661fb1a4791'
+        text:"five",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2Fslide_img5.jpg?alt=media&token=cd703f7f-61ce-4c77-b359-af00f8a22ec9'
     },
     {
-        text:"one",
-        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780062691194.jpg?alt=media&token=20b269d4-2345-4cf3-b759-1de3a589cc80'
-    },
-    {
-        text:"two",
-        image:' https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780441569595.jpg?alt=media&token=03fc6995-8925-476e-8105-8a317ddde07d'
-    },
-    {
-        text:"three",
-        image:' https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780689818769.jpg?alt=media&token=9e93839d-a240-40b8-a227-063747fa497c'
-    },
-    {
-        text:"one",
-        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780062691194.jpg?alt=media&token=20b269d4-2345-4cf3-b759-1de3a589cc80'
-    },
-    {
-        text:"two",
-        image:' https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780441569595.jpg?alt=media&token=03fc6995-8925-476e-8105-8a317ddde07d'
-    },
-    {
-        text:"three",
-        image:' https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780689818769.jpg?alt=media&token=9e93839d-a240-40b8-a227-063747fa497c'
-    },
-    {
-        text:"one",
-        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9781250217318.jpg?alt=media&token=be670b54-ba4c-48b2-8b55-2ffa414d0c75'
-    },
-    {
-        text:"two",
-        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9781338157826.jpg?alt=media&token=2ac81856-f2bc-4bd7-a312-9661fb1a4791'
-    },
-    {
-        text:"one",
-        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780062691194.jpg?alt=media&token=20b269d4-2345-4cf3-b759-1de3a589cc80'
-    },
-    {
-        text:"two",
-        image:' https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780441569595.jpg?alt=media&token=03fc6995-8925-476e-8105-8a317ddde07d'
-    },
-    {
-        text:"three",
-        image:' https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2F9780689818769.jpg?alt=media&token=9e93839d-a240-40b8-a227-063747fa497c'
+        text:"six",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2Fslide_img2.jpg?alt=media&token=b88971d8-2981-4263-b0a0-c3c1338f2592'
     }
 ];

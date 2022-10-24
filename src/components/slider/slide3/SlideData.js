@@ -1,0 +1,22 @@
+export const BooksData=[
+    {
+        text:"one",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-3%2Fslide_img13.jpg?alt=media&token=841a28ce-9fec-4b0b-aa46-84dee099a842'
+    },
+    {
+        text:"two",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-3%2Fslide_img11.jpg?alt=media&token=871ec806-b4c5-4b5f-8156-0e1cded4dd45'
+    },
+    {
+        text:"three",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-3%2Fslide_img12.jpg?alt=media&token=68fce1b9-bc4d-4a4b-8aa6-e5ec29a57e2d'
+    },
+    {
+        text:"four",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-3%2Fslide_img14.jpg?alt=media&token=3665692c-9244-41eb-9732-04bb57ad0073'
+    },
+    {
+        text:"five",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-3%2Fslide_img15.jpg?alt=media&token=ace495dd-37e8-45cb-95c4-ee57e8bdb0c1'
+    }
+];

@@ -1,0 +1,26 @@
+export const BooksData=[
+    {
+        text:"one",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-2%2Fslide_img10.jpg?alt=media&token=a9169e41-3850-4c49-98d7-9f974eb2ec6b'
+    },
+    {
+        text:"two",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-2%2Fslide_img6.jpg?alt=media&token=477e194b-0391-45e4-8fa7-8cd702fae843'
+    },
+    {
+        text:"three",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-2%2Fslide_img7.jpg?alt=media&token=6ab69284-475b-471a-bf6f-481830693994'
+    },
+    {
+        text:"four",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-2%2Fslide_img8.jpg?alt=media&token=55fd955e-e763-4660-8725-043dc527f044'
+    },
+    {
+        text:"five",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-2%2Fslide_img9.jpg?alt=media&token=936d8d89-e161-4e3f-be22-4220691e0d1f'
+    },
+    {
+        text:"six",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-1%2Fslide_img2.jpg?alt=media&token=b88971d8-2981-4263-b0a0-c3c1338f2592'
+    }
+];
