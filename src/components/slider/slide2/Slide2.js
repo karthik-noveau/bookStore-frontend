@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-function Slide3() {
+function Slide2() {
 
   var settings = {
     dots: true,
@@ -93,4 +93,4 @@ function Slide3() {
   );
 }
 
-export default Slide3;
+export default Slide2;

@@ -11,15 +11,16 @@ import MainSlider from '../slider/main-slider/MainSlider';
 import Slide2 from '../slider/slide2/Slide2';
 import Slide3 from '../slider/slide3/Slide3';
  
+ 
 
 
 
 
 
 function Home() {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-      }, [])
+    // useEffect(() => {
+    //     window.scrollTo(0, 0)
+    //   }, [])
     return (
         <div>
       

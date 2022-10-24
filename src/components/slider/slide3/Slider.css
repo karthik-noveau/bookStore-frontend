@@ -1,20 +1,19 @@
 .slide_main_cont{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .slide_cont{
-    width: 92% ;
+  width: 92% ;
 }
- 
- 
-  .slick-slide img{
-    width: 90%;
-  }
 
-  @media(min-width:1000px){
-    .slick-slide img{
-        width: 65%;
-      }
-     
-  }
- 
+
+.slick-slide img{
+  width: 90%;
+}
+
+@media(min-width:1000px){
+  .slick-slide img{
+      width: 65%;
+    }
+   
+}
