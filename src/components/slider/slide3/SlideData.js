@@ -18,5 +18,9 @@ export const BooksData=[
     {
         text:"five",
         image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-3%2Fslide_img15.jpg?alt=media&token=ace495dd-37e8-45cb-95c4-ee57e8bdb0c1'
-    }
+    },
+    {
+        text:"five",
+        image:'https://firebasestorage.googleapis.com/v0/b/book-store-2701c.appspot.com/o/slider-3%2Fslide_img15.jpg?alt=media&token=ace495dd-37e8-45cb-95c4-ee57e8bdb0c1'
+    }   
 ];

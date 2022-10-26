@@ -10,69 +10,69 @@ function Slide2() {
 
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
-    slidesToShow:13, 
+    slidesToShow: 13,
     slidesToScroll: 2,
     initialSlide: 0,
     responsive: [
       {
-        breakpoint:850,
+        breakpoint: 850,
         settings: {
-          slidesToShow:6,
+          slidesToShow: 6,
           slidesToScroll: 5,
           infinite: true,
-          dots: false
+          dots: true
         }
       },
-     
+
       {
-        breakpoint:480,
+        breakpoint: 480,
         settings: {
-          slidesToShow:3,
+          slidesToShow: 3,
           slidesToScroll: 5,
           infinite: true,
-          dots: false
+          dots: true
         }
       },
-     
+
       {
         breakpoint: 600,
         settings: {
-          slidesToShow:4,
+          slidesToShow: 4,
           slidesToScroll: 5,
           infinite: true,
-          dots: false
+          dots: true
         }
       },
       {
         breakpoint: 900,
         settings: {
-          slidesToShow:6,
+          slidesToShow: 6,
           slidesToScroll: 12,
           infinite: true,
-          dots: false
+          dots: true
         }
       },
       {
         breakpoint: 1650,
         settings: {
-          slidesToShow:6,
-          slidesToScroll:9,
+          slidesToShow: 6,
+          slidesToScroll: 9,
           infinite: true,
-          dots: false
+          dots: true
         }
       },
-    
 
-  
-     
-   
+
+
+
+
     ]
   };
   return (
     <div className="slide_main_cont">
- 
+
       <div className="slide_cont">
 
         <Slider {...settings}>
